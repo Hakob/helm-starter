@@ -10,8 +10,8 @@ Example helm starters:
 
 ## Installation
 
-```sh
-> helm plugin install https://github.com/Hakob/helm-starter
+```bash
+helm plugin install https://github.com/Hakob/helm-starter
 ```
 
 ## Usage
@@ -25,15 +25,15 @@ Example helm starters:
 
 To use a starter, run:
 
-```sh
-> helm create CHART_NAME --starter STARTER_NAME
+```bash
+helm create CHART_NAME --starter STARTER_NAME
 ```
 
 ## Example
 
-```sh
-> helm starter fetch https://github.com/salesforce/helm-starter-istio.git
-> helm create banana-service --starter helm-starter-istio
+```bash
+helm starter fetch https://github.com/salesforce/helm-starter-istio.git
+helm create banana-service --starter helm-starter-istio
 ```
 
 ## Important Notes
