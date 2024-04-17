@@ -11,7 +11,7 @@ Example helm starters:
 ## Installation
 
 ```sh
-> helm plugin install https://github.com/Hakob/helm-starter.git
+> helm plugin install https://github.com/Hakob/helm-starter
 ```
 
 ## Usage
