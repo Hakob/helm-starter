@@ -1,0 +1,22 @@
+# Copyright (c) 2024.
+# All rights reserved.
+# For full license text, see the LICENSE file in the repo.
+
+name: "starter"
+version: "2.0.0"
+usage: "Fetch, list, and delete helm starters from github."
+description: |-
+  This plugin fetches, lists, and deletes helm starters from github.
+ignoreFlags: false
+useTunnel: false
+command: "$HELM_PLUGIN_DIR/starter.sh"
+platformCommand:
+  - os: macos
+    arch: amd64
+    command: "$HELM_PLUGIN_DIR/starter.sh"
+  - os: linux
+    arch: amd64
+    command: "$HELM_PLUGIN_DIR/starter.sh"
+  - os: windows
+    arch: amd64
+    command: pwsh $HELM_PLUGIN_DIR/starter.ps1
